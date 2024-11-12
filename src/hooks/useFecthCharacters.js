@@ -28,3 +28,31 @@ export const useFetchCharacters = ({ url }) => {
     
     return { result }
 }
+
+
+
+// import { useEffect, useState} from 'react'
+// const useFecthCharacter = (url) => {
+//   const [data, setData] = useState(null)
+  
+//   const getCharacter = async () => {
+//     try {
+//       const response = await fetch(url)
+//       const data = await response.json()
+//       setData(data)
+//       console.log(data)
+//     } catch (err) {
+//       console.error(error)
+//     }
+//   }
+
+//   useEffect( () => {
+//     getCharacter()
+//   }, [])
+  
+//   return { data }
+// }
+
+
+
+export default useFecthCharacter
